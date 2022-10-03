@@ -1,4 +1,4 @@
-package DOM.lectura;
+package DOM.modelos;
 
 public class Empleado {
 
@@ -12,6 +12,10 @@ public class Empleado {
         this.nombre = nombre;
         this.userName = userName;
         this.password = password;
+    }
+
+    public Empleado() {
+
     }
 
     public int getId() {
